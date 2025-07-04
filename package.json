@@ -1,6 +1,6 @@
 {
   "dependencies": {
     "andes-leds-tools": "^0.4.9",
-    "spark-leds-beta": "^0.2.6"
+    "spark-leds-beta": "^0.2.7"
   }
 }
