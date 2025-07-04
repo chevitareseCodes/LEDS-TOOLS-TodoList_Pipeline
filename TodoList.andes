@@ -115,6 +115,11 @@ usecase Notificacoes {
     name: "Notificações"
     description: "Sistema envia lembretes ao usuário"
     requirements: Requirements.RF10
+
+    event EventoX{
+        name: "Nome"
+        action: "O Usuário Faz Tal Coisa", "O Sistema Responde Tal Coisa"
+    }
 }
 
 module ToDoApp {
@@ -133,6 +138,7 @@ module ToDoApp {
         cancelada
     }
 
+    // Desrição da classe Usuário
     entity Usuario {
         nome: string
         _email: email
